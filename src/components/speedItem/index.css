@@ -1,0 +1,71 @@
+
+
+.bg-container{
+    height: 130vh;
+    background-color: black;
+    width: 85vw;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    color: #ffffff;
+    padding-top: 20px;
+    font-family: "Roboto";
+    padding-bottom: 20px;
+    font-style: italic;
+    font-size: 35px;
+}
+.image{
+    height: 40vh;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.speed{
+    color: white;
+    font-size: 30px;
+}
+.description{
+    color:  #cbd5e1;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.acceleration{
+    background-color: #0b69ff;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #ffffff;
+    height: 6vh;
+    width: 9vw;
+    padding: 3px;
+    margin-right: 25px;
+}
+.break{
+    background-color: transparent;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #94a3b8;
+    color: #ffffff;
+    height: 6vh;
+    width: 9vw;
+    padding: 3px;
+}
+
+@media screen and (max-width: 768px){
+    .bg-container{
+        width: 40vw;
+    }
+    .image{
+        height: 30vh;
+    }
+}
+@media screen and (min-width: 769px){
+    .bg-container{
+        width: 80vw;
+    }
+    .image{
+        height: 40vh;
+    }
+}
